@@ -71,8 +71,8 @@ p {
 }
 
 .box {
-    box-shadow: 10px 10px 30px rgba(97, 89, 89, 0.375);
-    width: 50%;
+    box-shadow: 5px 5px 30px rgba(97, 89, 89, 0.375);
+    width: 100%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
@@ -83,5 +83,27 @@ p {
 }
 
 .padding {
-    padding: 5%;
+    margin-top: 50px;
+    padding-left: 5px;
+
+}
+
+.last-box {
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.next-box {
+    box-shadow: 0px 0px 30px rgba(97, 89, 89, 0.375);
+    width: 86%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border: 20px solid white;
+    border-radius: 10px;
+
+}
+
+.last-section-color {
+    background-color: darkslategrey;
 }
