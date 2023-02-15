@@ -7,6 +7,11 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 50px;
+    color: rgb(125, 116, 116);
+}
+
 p {
     color: gray;
     font-size: 20px;
@@ -27,7 +32,7 @@ p {
 .link-button :hover {
     color: black;
     text-transform: uppercase;
-    background-image: linear-gradient(rgba(36, 214, 36, 0.738), green);
+    background-image: linear-gradient(rgba(36, 214, 36, 0.738), rgb(49, 103, 49));
 }
 
 .flexible {
@@ -51,18 +56,32 @@ p {
     height: auto;
 }
 
-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 
 .section2 {
-    background-color: rgba(231, 163, 174, 0.279);
-    height: 600px;
+
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: auto;
 
 }
 
-.section2 div {
-    padding: left 10px;
+.set-align h2,
+p {
+    text-align: center;
+}
 
+.box {
+    box-shadow: 10px 10px 30px rgba(97, 89, 89, 0.375);
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-left: 20px;
+    border: 20px solid white;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.padding {
+    padding: 5%;
 }
