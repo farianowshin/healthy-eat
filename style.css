@@ -1,0 +1,68 @@
+.orange {
+    color: orange;
+}
+
+h1 {
+    color: rgb(125, 116, 116);
+    font-size: 80px;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+}
+
+.link-button {
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.link-button :hover {
+    color: black;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgba(36, 214, 36, 0.738), green);
+}
+
+.flexible {
+    display: flex;
+}
+
+.set-div {
+    width: 60%;
+    margin: 5px 5px;
+    padding-left: 100px;
+
+}
+
+.set-div img {
+    width: 100%;
+}
+
+
+#pic2 {
+    width: 60%;
+    height: auto;
+}
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section2 {
+    background-color: rgba(231, 163, 174, 0.279);
+    height: 600px;
+
+}
+
+.section2 div {
+    padding: left 10px;
+
+}
